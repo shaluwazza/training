@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'myfont1';
+    src: url(/fonts/4c1bd77490d6e4e5542234b89d112528.woff2);
+}
+@font-face {
+    font-family: 'myfont2';
+    src: url(/fonts/5e1bb12a8ff7b8d0fc62fc5934c9c36f\ \(2\).woff2);
+}
+@font-face {
+    font-family: 'myfont3';
+    src: url(/fonts/8f7934b3d45567e9cf1f541e008969a9.woff2);
+}
+
+
+
+body    {
+    margin: 0;
+    padding: 0;
+    background-color: #efe3b8;
+}
+.page1 {
+    height: 100vh;
+    background-color: #a6603a;
+    color: #efe3b8;
+}
+.page1-content {
+         display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        
+    
+}
+.text-container {
+   
+        flex: 1;
+        margin-left: 132px;
+    
+    
+
+}
+.text-container h1 {
+    font-size: 54px;
+    
+    font-family: 'myfont2';
+    font-weight: 400;
+    line-height: 1.1;
+    width: 477px;
+    margin-bottom: 71px;
+
+
+}
+.text-container h2 {
+    font-size: 23px;
+    font-weight: 700;
+    font-family: 'myfont1';
+    width: 189px;
+    margin-bottom: 213px;
+    margin-top: 77px;
+    line-height: 1.2;
+
+
+}
+.button {
+    font-size: 17px;
+    font-family: 'myfont3';
+    padding: 19px 48px;
+    text-decoration: none;
+    border: 2px solid #efe3b8;
+    color: #efe3b8;
+}
+.image-container {
+    flex: 1;
+    padding-right: 50px;
+}
+.image-container img {
+    width: 685px;
+    height: 100vh;
+}
+
+.page2 {
+    height: 100vh;
+    
+    color: #a6603a;
+}
+.page2-content {
+         display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        
+    
+}
+.image-container2 {
+    flex: 1;
+    padding-left: 52px;
+}
+
+.image-container2 img {
+    width: 685px;
+    height: 100vh;
+}
+
+.text-container {
+   
+        flex: 1;
+        
+    
+
+}
+.text-container h1 {
+    font-size: 54px;
+    
+    font-family: 'myfont2';
+    font-weight: 400;
+    line-height: 1.1;
+    width: 477px;
+    margin-bottom: 71px;
+
+
+}
+.text-container p {
+    font-size: 23px;
+    font-weight: 400;
+    font-family: 'myfont3';
+    width: 189px;
+    margin-bottom: 213px;
+    margin-top: 77px;
+    line-height: 1.2;
+
+
+}
+.page3 {
+    height: 100vh;
+    
+    background-color: #a6603a;
+    color: #efe3b8;
+}
+
+
+
