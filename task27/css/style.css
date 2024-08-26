@@ -197,7 +197,7 @@ body {
     font-family: 'Times New Roman';
     font-style: italic;
     color: #cdad7d;
-    font-size: 40px;
+    font-size: 29px;
 }
 
 .page4 {
@@ -269,7 +269,7 @@ i {
        
         background-size: cover;
         font-size: 14px;
-        height: 80vh;
+        height: 75vh;
         padding-left: 7px;
        
     }
@@ -304,13 +304,14 @@ i {
     .description p {
         font-size: 16px;
     
-    max-width: 92vw;
-    line-height: 1.3;
+       max-width: 92vw;
+       line-height: 1.3;
     }
+   
     .page2 {
         flex-direction: column;
         text-align: center; 
-        height: 82vh;
+        height: 100vh;
         margin-top: 40px;
     }
 
@@ -320,7 +321,7 @@ i {
         text-align: left;
         margin-left: 30px;
         margin-bottom: 33px;
-        margin-top: 280px;
+       
 
     }
 
@@ -351,11 +352,10 @@ i {
         height: 161vh;
         flex-direction: column;
         text-align: center;
-        margin-top: 355px;
+        margin-top: 15vh;
         background-size: cover;
         flex-direction: column;
         text-align: center;
-        margin-top: 355px;
         background-size: cover;
    
     }
@@ -421,5 +421,132 @@ i {
     }
     .follow-us h2 {
         font-size: 29px; 
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .page1 {
+        background-size: cover;
+        font-size: 16px;
+        height: 80vh;
+        padding-left: 15px;
+    }
+    .page1-content {
+        margin-left: 20px;
+    }
+    .header {
+        margin-top: 20px;
+    }
+    .header h1 {
+        width: 150px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .header img {
+        width: 40px;
+    }
+    .tagline {
+        margin-bottom: 10px;
+        margin-top: 50px;
+    }
+    .tagline h2 {
+        font-size: 50px;
+        width: 70vw;
+    }
+    .description {
+        margin-bottom: 50px;
+    }
+    .description p {
+        font-size: 18px;
+        max-width: 90vw;
+        line-height: 1.4;
+    }
+    .page2 {
+        flex-direction: column;
+        text-align: center;
+        height: 85vh;
+        margin-top: 50px;
+    }
+    .text-container {
+        margin-left: 20px;
+        margin-bottom: 30px;
+        text-align: left;
+        margin-top: 250px;
+    }
+    .text-container h2 {
+        font-size: 40px;
+        width: 100%;
+        line-height: 1.2;
+        margin-top: 60px;
+    }
+    .text-container p {
+        font-size: 18px;
+        width: 95%;
+        margin-bottom: 50px;
+        line-height: 1.6;
+    }
+    .text-container, .button {
+        margin-bottom: 40px;
+    }
+    .image-container img {
+        width: 320px;
+        height: auto;
+    }
+    .page3 {
+        height: 180vh;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 300px;
+        background-size: cover;
+    }
+    .testimonial-section {
+        padding: 20px;
+    }
+    .testimonial-section h1 {
+        font-size: 30px;
+    }
+    .subheading {
+        font-size: 22px;
+        margin-top: 10px;
+    }
+    .testimonials {
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px 40px;
+    }
+    .testimonial {
+        width: 85%;
+        height: auto;
+    }
+    .testimonial p {
+        font-size: 18px;
+        margin-top: 0;
+    }
+    .author {
+        font-size: 20px;
+    }
+    .page4 {
+        margin: 0;
+        padding: 30px;
+        margin-left: 0;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    p {
+        font-size: 18px;
+        width: 100%;
+    }
+    .social-icons {
+        text-align: center;
+    }
+    .social-icons i {
+        font-size: 28px;
+    }
+    .follow-us p {
+        width: 100%;
+        font-size: 18px;
+    }
+    .follow-us h2 {
+        font-size: 32px;
     }
 }

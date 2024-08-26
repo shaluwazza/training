@@ -35,12 +35,12 @@ body {
     width: 200px;
     margin: 0;
     margin-bottom: 2px;
-    font-size: 5.5em;
+    font-size: 88px;
 }
 .page1 h2 {
     font-family: "Moderustic", sans-serif ;
     font-weight: 400;
-    font-size: 2.2em;
+    font-size: 35px;
     margin-bottom: 35px;
 
 }
@@ -67,11 +67,7 @@ body {
     padding: 40px;
     display: flex;
     width: 100%;
-    text-align: center;
-    margin: 0 auto;
     align-items: center;
-    
-
 }
 .text {
     max-width: 500px;
@@ -149,7 +145,7 @@ body {
 
 .property h2 {
     
-    font-size: 1.5em;
+    font-size: 24px;
 }
 
 .property p {
@@ -189,10 +185,7 @@ body {
     }
     
     .client {
-       
-        
-       
-        text-align: center;
+         text-align: center;
     }
     
     .client img {
@@ -204,11 +197,11 @@ body {
     
     .client h3 {
         margin-bottom: 15px;
-        font-size: 1.5em;
+        font-size: 24px;
     }
     
     .client p {
-        font-size: 1.4em;
+        font-size: 22px;
         color: black;
         margin-bottom: 20px;
         width: 375px;
@@ -217,7 +210,7 @@ body {
     
     .rating span {
         color: #d25525;
-        font-size: 2em;
+        font-size: 32px;
       
     }
 
@@ -242,12 +235,12 @@ body {
 }
 
 .contact-info h1 {
-    font-size: 3.8em;
+    font-size: 61px;
     margin-bottom: 20px;
 }
 
 .contact-info p {
-    font-size: 1.3em;
+    font-size: 21px;
     line-height: 1.6;
 }
 
